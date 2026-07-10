@@ -1,0 +1,39 @@
+body {
+    background-color: #f6f5f5;
+    color: #333;
+    line-height: 1.6;
+    max-width: 1200px;
+}
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;    
+    padding: 0 20px;   
+}
+.btn-primary {
+    background-color: #164dc3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navbar {
+    
+    display: flex; 
+ 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 50px;
+    background-color: rgb(248, 249, 251);
+}
+.nav-middle {
+    list-style: none; 
+    display: flex;
+    gap: 20px;
+}
+.nav-middle a {
+    text-decoration: none;
+    color: #100e0e;
+    font-size: 0.9rem;
+}
