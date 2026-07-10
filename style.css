@@ -56,3 +56,39 @@ body {
     margin: 0 auto 30px auto; 
     color: #cbd5e1;
 }
+.speaker-grid{
+    display: grid;
+   
+    grid-template-columns: repeat(2, 1fr); 
+  
+  
+  
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+    
+    
+}
+.speakers-section h2{
+    margin: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.card speaker-card{
+    border:2px solid black;
+}
+.speaker-card img{
+    
+    width: 100%;
+    object-fit: cover;
+}
+.tag{
+    font-size: 0.7rem;
+    color: #2563eb;
+}
+.card-content{
+    line-height: 40%;
+}
