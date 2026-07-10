@@ -37,3 +37,22 @@ body {
     color: #100e0e;
     font-size: 0.9rem;
 }
+.hero {
+    background-image:url(./assets/banner.jpg);
+    color: white;
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin: 20px;
+}
+
+
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 30px auto; 
+    color: #cbd5e1;
+}
