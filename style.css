@@ -74,8 +74,9 @@ body {
 }
 .speakers-section h2{
     margin: 50px;
+    
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 .card speaker-card{
     border:2px solid black;
@@ -92,3 +93,19 @@ body {
 .card-content{
     line-height: 40%;
 }
+
+.pricing-section h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    
+}
+.pricing-section p{
+    text-align: center;
+    line-height: 0px;
+    margin-top: -20px;
+}
+
+
+
+
