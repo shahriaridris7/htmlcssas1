@@ -78,12 +78,13 @@ body {
     text-align: center;
     font-size: 3rem;
 }
-.card speaker-card{
-    border:2px solid black;
+.speaker-card{
+    border:rgba(0, 0, 0, 0.2) solid 1px;
+   
 }
 .speaker-card img{
     
-    width: 100%;
+    width: auto;
     object-fit: cover;
 }
 .tag{
@@ -92,6 +93,7 @@ body {
 }
 .card-content{
     line-height: 40%;
+    margin-left: 10px;
 }
 .ps-head {
     text-align: center;
@@ -184,42 +186,72 @@ body {
     line-height: 30px;
     font-size: 1.1rem;
 }
-.form-border{
-border:#333 .3px solid;
-  border-radius: 20px;
-  background-color: rgb(21, 50, 50);
-  width: 70%;
-  padding: 20px;
-  margin :10px auto;
-  color: white;
-  
-}
-.forms{
-     display: flex;
-    flex-direction: column;
-    
-    width: 80%;
-    
-    gap: 10px;
-    margin:10px auto;
-    
-   
 
+.faq-section {
+    margin: 80px auto;
+    max-width: 1280px; 
 }
-.form-text{
-   
+
+.faq-section h2 {
     text-align: center;
-    
-    margin: 0px;
+    font-size: 3rem; 
+    margin-bottom: 50px;
+}
 
+.faq-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
 }
-.forms input{
-    font-size:1.2rem;
-    border-radius: 7px;
+
+.faq-item {
+    background-color: white; 
+    border: rgba(0, 0, 0, 0.2) solid 1px; 
+    border-radius: 6px; 
+    overflow: hidden;
 }
-.sub{
-    width: 50%;
-    margin: 10px auto;
+
+.faq-item summary {
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #164dc3; 
+    cursor: pointer;
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.faq-item summary::after {
+    content: '+';
+    font-size: 1.5rem;
+    color: #333; 
+    transition: transform 0.3s ease;
+}
+
+.faq-item[open] summary::after {
+    content: '−';
+}
+
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-content {
+    padding: 0 20px 20px 20px;
+    color: #333; 
+    line-height: 1.6; 
+}
+
+.faq-content p {
+    margin: 0;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
 }
 .footbody{
     display: flex;
